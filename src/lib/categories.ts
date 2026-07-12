@@ -1,0 +1,26 @@
+export const CATEGORIES = [
+  "Batterie et chargeur INGCO",
+  "Caisse à outils INGCO",
+  "Clé INGCO",
+  "Marteaux",
+  "Mèches et forets",
+  "Menuiserie",
+  "Meule",
+  "Meuleuse",
+  "Outils agricole",
+  "Outils de bricolage INGCO",
+  "Outils de mesure",
+  "Pack",
+  "Peinture",
+  "Perceuse",
+  "Pince",
+  "Plomberie",
+  "Pneumatique",
+  "Pompe à eau",
+  "Soudure",
+  "Souffleur",
+  "Tournevis",
+  "Visseuse",
+] as const;
+
+export type Category = (typeof CATEGORIES)[number];
