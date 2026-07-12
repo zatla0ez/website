@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "INGCO Catalogue — Outils professionnels" },
+      { title: "INGCO Kairouan — Catalogue" },
       {
         name: "description",
         content:
           "Catalogue INGCO : perceuses, meuleuses, marteaux, pneumatique, peinture et plus. Parcourez tous nos outils par catégorie.",
       },
-      { property: "og:title", content: "INGCO Catalogue — Outils professionnels" },
+      { property: "og:title", content: "INGCO Kairouan — Catalogue" },
       {
         property: "og:description",
         content: "Parcourez le catalogue complet des outils INGCO par catégorie.",
