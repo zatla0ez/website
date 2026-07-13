@@ -81,7 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Catalogue INGCO : perceuses, meuleuses, marteaux, pneumatique, peinture et plus. Parcourez tous nos outils par catégorie.",
+          "Découvrez le catalogue complet INGCO à Kairouan : perceuses, meuleuses et outillage pro. Meilleurs prix garantis ! Appelez-nous au 24 369 083.",
       },
       { property: "og:title", content: "INGCO Kairouan — Catalogue" },
       {
